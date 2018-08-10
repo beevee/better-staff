@@ -1,0 +1,1 @@
+# Better Staff [![Build Status](https://travis-ci.org/beevee/better-staff.svg?branch=master)](https://travis-ci.org/beevee/better-staff)
