@@ -1,6 +1,9 @@
 language: node_js
 node_js: node
 script: yarn build
+before_deploy:
+  - apt-get install jq
+  - jq ".version=\"1.0.$TRAVIS_JOB_ID\"" build/manifest.json > build/manifest.json
 deploy:
   provider: script
   skip_cleanup: true
