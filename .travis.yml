@@ -2,7 +2,8 @@ language: node_js
 node_js: node
 script: yarn build
 before_deploy:
-  - jq ".version=\"1.0.$TRAVIS_JOB_ID\"" build/manifest.json > build/manifest.json
+  - jq ".version=\"1.0.$TRAVIS_JOB_ID\"" build/manifest.json > manifest_v.json
+  - mv manifest_v.json build/manifest.json
 deploy:
   provider: script
   skip_cleanup: true
