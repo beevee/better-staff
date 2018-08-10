@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "node utils/build.js",
-    "start": "node utils/webserver.js"
+    "start": "node utils/webserver.js",
+    "test": "echo 'no tests :('"
   },
   "devDependencies": {
     "chrome-webstore-upload-cli": "^1.2.0",
