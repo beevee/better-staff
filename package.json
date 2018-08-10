@@ -1,0 +1,8 @@
+{
+  "name": "better-staff",
+  "version": "1.0.0",
+  "devDependencies": {
+    "chrome-webstore-upload-cli": "^1.2.0",
+    "zip-folder": "latest"
+  }
+}
