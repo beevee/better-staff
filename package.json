@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "chrome-webstore-upload-cli": "^1.2.0",
-    "zip-folder": "latest"
+    "zip-folder": "latest",
+    "lodash": "~>4.17.5"
   }
 }
