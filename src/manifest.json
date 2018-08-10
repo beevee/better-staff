@@ -1,5 +1,5 @@
 {
-  "name": "Chrome Extension Webpack",
+  "name": "Better Staff",
   "options_page": "options.html",
   "background": {
     "scripts": ["background.bundle.js"],
